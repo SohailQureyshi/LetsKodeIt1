@@ -1,4 +1,4 @@
-package Drivers;
+package FindingElement;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,10 +14,12 @@ public class ByClassDemo {
 		driver.get(baseURL);
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
-//		Finding Element by Class name ++Be careful of multiple classes
-//		driver.findElement(By.className("title")).click();
+//	    Finding Element by Class name ++Be careful of multiple classes
+		driver.findElement(By.className("title")).click();
+		
+//		This is not widely used 
 //		Finding Element by tag name
-		driver.findElement(By.tagName("a")).click();
+//		driver.findElement(By.tagName("a")).click();
 	}
 
 }

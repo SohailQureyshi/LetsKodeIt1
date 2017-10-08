@@ -1,4 +1,4 @@
-package Drivers;
+package FindingElement;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,4 +19,14 @@ public class IDNameDemo {
 		driver.findElement(By.name("btnK")).click();
 	}
 
+//	Different ways to find element
+//	id fastest and the most reliable
+//	name
+//	class
+//	linktext
+//	partial linktext
+//	CSS selector
+//	Xpath....last resort 
+//	partial Xpath
+	
 }

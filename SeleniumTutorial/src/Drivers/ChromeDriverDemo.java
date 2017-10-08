@@ -8,7 +8,7 @@ public class ChromeDriverDemo {
 	public static void main(String[] args) {
 		WebDriver driver;
 		String baseURL= "http://www.google.co.uk";
-	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+//	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(baseURL);
         driver.manage().window().maximize();
